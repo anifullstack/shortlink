@@ -1,3 +1,3 @@
-Short Link
+# Short Link
 
-This is app built on Meteor and React
+## This is app built on Meteor and React
