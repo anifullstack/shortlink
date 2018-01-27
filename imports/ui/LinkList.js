@@ -52,8 +52,8 @@ export class LinkList extends React.Component {
 
         return this.state.links.map((link) => {
 
-            //const shortUrl = Meteor.absoluteUrl(link._id);
-            const shortUrl = 'https://lab-sushilshimpi.c9users.io' + '/' + link._id;
+            const shortUrl = Meteor.absoluteUrl(link._id);
+            // const shortUrl = 'https://lab-sushilshimpi.c9users.io' + '/' + link._id;
             //use of spread operator to exampnd l link object
             return <LinkListItem key={ link._id } shortUrl={shortUrl}  {...link}/>;
 
